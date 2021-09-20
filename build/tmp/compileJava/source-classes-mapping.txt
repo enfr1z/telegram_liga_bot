@@ -1,0 +1,8 @@
+ru/digitalleague/Bot.java
+ ru.digitalleague.Bot
+ru/digitalleague/NotificationBot.java
+ ru.digitalleague.NotificationBot
+ru/digitalleague/AppMain.java
+ ru.digitalleague.AppMain
+ru/digitalleague/Location.java
+ ru.digitalleague.Location

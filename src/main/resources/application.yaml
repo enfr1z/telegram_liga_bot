@@ -1,0 +1,7 @@
+bot:
+  name: phosagro_liga_bot
+  token: 2033948807:AAGOzvzj_UgIfVbFkFQhiIwkNnvhX65-4PI
+
+spring:
+  autoconfigure:
+    exclude: org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration
