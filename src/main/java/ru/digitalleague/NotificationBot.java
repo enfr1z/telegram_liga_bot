@@ -18,6 +18,7 @@ public class NotificationBot extends TelegramLongPollingCommandBot implements Bo
     private static final String BOT_NAME = "phosagro_liga_bot";
     private static final String BOT_TOKEN = "2033948807:AAGOzvzj_UgIfVbFkFQhiIwkNnvhX65-4PI";
     private static final String CONSTANTA2 = "PIZDEC KAKAYA OSHIBKA!";
+    private static final String CONSTANTA3 = "samaya vazhnaya pravka!";
     private Set<Long> chatIds = new HashSet<>();
 
     public NotificationBot(DefaultBotOptions options) {
@@ -26,6 +27,7 @@ public class NotificationBot extends TelegramLongPollingCommandBot implements Bo
 
     public static void setUserWorkplaceKeyboard() {
         System.out.println(CONSTANTA2);
+        System.out.println(CONSTANTA3);
         InlineKeyboardMarkup inlineKeyboardMarkup = new InlineKeyboardMarkup();
         List<InlineKeyboardButton> userWorkButton = Arrays.asList(
                 new InlineKeyboardButton().setText(Location.Savela.getCode()),

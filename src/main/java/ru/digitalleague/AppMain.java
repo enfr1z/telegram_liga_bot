@@ -10,7 +10,7 @@ public class AppMain {
     public static void main(String[] args) {
         System.out.println("initialize bot");
         ApiContextInitializer.init();
-
+        System.out.println("hello");
         TelegramBotsApi botsApi = new TelegramBotsApi();
         try {
             botsApi.registerBot(new NotificationBot(ApiContext.getInstance(DefaultBotOptions.class)));
